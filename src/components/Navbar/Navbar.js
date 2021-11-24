@@ -25,6 +25,9 @@ const Navbar = () => {
                 <Link to = "/support" className="support">
                     <li>Support</li>
                 </Link>
+                <Link to = "/report" className="report">
+                    <li>Report</li>
+                </Link>
             </ul>
             <button className="mobile-menu-icon"
             onClick={()=> setIsMobile(!isMobile)}>

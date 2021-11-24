@@ -6,6 +6,8 @@ import Contact from "./components/Contact";
 import Signup from "./components/Signup";
 import Support from "./components/Support";
 import Navbar from "./components/Navbar/Navbar";
+import Report from "./components/Report";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -26,6 +28,10 @@ const App = () => {
       <Routes>
           <Route path="/support" element={<Support/>} />
       </Routes>
+      <Routes>
+          <Route path="/report" element={<Report/>} />
+      </Routes>
+      <Footer />
   </Router>
   );
 }
