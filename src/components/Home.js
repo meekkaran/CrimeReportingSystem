@@ -4,6 +4,7 @@ import "./home.css"
 const Home = () => {
     return (
         <div className="main">
+            home
             {/* <img className="image" src="../img/crimescene.jpg" /> */}
             {/* <div className="bodycontent">
                 <h1>Reporting crimes hapening in-time and getting help is really hard</h1>

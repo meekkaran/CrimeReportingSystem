@@ -8,7 +8,7 @@
     justify-content: space-around;
     align-items: center;
     height:75px;
-    background-color: #00828c;
+    background-color: #b22222;
     color:white;
 }
 .logo{
@@ -18,9 +18,11 @@
     display: flex;
     justify-content: flex-end;
     list-style: none;
-    width:75%;
+    width:50%;
 }
-.home,
+
+
+/* .home,
 .about,
 .contact,
 .signup,
@@ -90,4 +92,4 @@
         top:15px;
         right:25px;
     }
-}    
+}     */
