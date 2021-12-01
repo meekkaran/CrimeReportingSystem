@@ -18,8 +18,10 @@
     display: flex;
     justify-content: flex-end;
     list-style: none;
-    width:50%;
 }
+/* .nav-links ul li{
+    width:40px;
+} */
 
 
 /* .home,
