@@ -32,3 +32,12 @@
     padding: 12px 20px;
     border-radius: 10px;
 }
+
+
+
+/* container section */
+.container h1{
+    font-weight: bold;
+    text-align: center;
+    padding:30px;
+}
