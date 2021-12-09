@@ -26,9 +26,9 @@ const Home = () => {
             <div className="container">
                 <h1>With the help of your reports victims are rescued</h1>
                 <div className="row">
-                    <div className="col-md-4">
+                    <div className="col-lg-4 col-md-4">
                         <div class="sector">
-                            <p>Report any form of crime</p>
+                            <h2>Report any form of crime</h2>
                             <ul>
                                 <li>Personal crime
                                     <p>Personal crimes are crimes that are perpetrated against an individual. These can include assault, battery, false imprisonment, kidnapping, homicide, and rape. Homicide also covers a range of categories, which include first degree murder, second degree murder, involuntary manslaughter, and vehicular homicide.</p>
@@ -52,9 +52,9 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-4">
+                    <div className="col-lg-4 col-md-4">
                         <div class="sector1">
-                            <p>how we sort out crimes</p>
+                            <h2>how we sort out crimes</h2>
                             <ul>
                                 <li>Contact police</li>
                                 <li id="first"><a href="report.html">Report Criminal Content</a><i class="fa fa-angle-right"></i></li>
@@ -70,9 +70,9 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-4">
+                    <div className="col-lg-4 col-md-4">
                         <div class="sector2">
-                            <p>Our Annual report and samples of various crime scenes</p>
+                            <h2>Our Annual report and samples of various crime scenes</h2>
                             <img src="sth.jpg" />
                             <div class="input-group">
                                 <button type="submit" name="submit" class="btn">ACCESS THE PODCAST</button>
