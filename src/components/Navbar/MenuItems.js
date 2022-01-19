@@ -10,7 +10,17 @@ export const MenuItems = [
         cName:"nav-links"
     },
     {
-        title:"Products",
+        title:"Report Crime",
+        url:"#",
+        cName:"nav-links"
+    },
+    {
+        title:"Support",
+        url:"#",
+        cName:"nav-links"
+    },
+    {
+        title:"Sign Up",
         url:"#",
         cName:"nav-links"
     },
@@ -18,11 +28,6 @@ export const MenuItems = [
         title:"Contact Us",
         url:"#",
         cName:"nav-links"
-    },
-    {
-        title:"Sign Up",
-        url:"#",
-        cName:"nav-links-mobile"
     },
 
 ]
