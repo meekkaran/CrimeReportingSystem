@@ -2,10 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import {GlobalStyles} from "./global-styles"
 
 ReactDOM.render(
-    <App />,
+  <>
+    <GlobalStyles />
+    <App />
+  </>,
   document.getElementById('root')
 );
 
