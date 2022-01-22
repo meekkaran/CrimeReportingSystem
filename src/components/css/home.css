@@ -1,0 +1,20 @@
+/* main-body content */
+.bodycontent {
+  background: url(../img/crimescene.jpg);
+  background-size: cover;
+  hei
+}
+
+/* newsletter section */
+.newsletter {
+  background-color: #d3d3d3;
+}
+.newsletter h4 {
+  padding: 10px;
+  margin-left: 5%;
+  font-size: 25px;
+  font-weight: bold;
+}
+.input-group {
+  margin-left: 5%;
+}

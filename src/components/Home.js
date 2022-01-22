@@ -1,8 +1,10 @@
 import React from 'react';
+import '../components/css/home.css'
 
 function Home() {
   return(
         <div>
+            {/* main body content */}
             <div className="bodycontent">
                 <div className="row">
                     <div className="col-md-6">
@@ -18,7 +20,91 @@ function Home() {
                     </div>
                 </div>  
             </div>
-        </div>
-  )}
 
-export default Home;
+            {/* second main body content */}
+            <div className="container">
+                <h1>With the help of your reports victims are rescued</h1>
+                <div className="row">
+                    <div className="col-md-4">
+                        <div class="sector">
+                            <h2>Report any form of crime</h2>
+                            <ul>
+                                <li>Personal crime
+                                    <p>Personal crimes are crimes that are perpetrated against an individual. These can include assault, battery, false imprisonment, kidnapping, homicide, and rape. Homicide also covers a range of categories, which include first degree murder, second degree murder, involuntary manslaughter, and vehicular homicide.</p>
+
+                                </li>
+                                <li>Property crime
+                                    <p>Property crime is a category of crime, usually involving private property, that includes, among other crimes, burglary, larceny, theft, motor vehicle theft, arson, shoplifting, and vandalism. Property crime is a crime to obtain money, property, or some other benefit.</p>
+
+                                </li>
+                                <li>Statutory crime
+                                    <p>Statutory crimes are violations of specific state or federal statutes. They may involve either property offenses or personal offenses. An example of this would be alcohol related crimes, such as DUI or selling alcohol to a minor.</p
+                                        >
+                                </li>
+                                <li>Inchoate crime
+                                    <p>An inchoate offense, preliminary crime, inchoate crime or incomplete crime is a crime of preparing for or seeking to commit another crime. The most common example of an inchoate offense is "attempt".</p>
+                                </li>
+                                <li>Financial crime
+                                    <p>Financial crime is defined as crime that is specifically committed against property. These crimes are almost always committed for the personal benefit of the criminal, and they involve an illegal conversion of ownership of the property that is involved.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className="col-md-4">
+                        <div class="sector1">
+                            <h2>how we sort out crimes</h2>
+                            <ul>
+                                <li>Contact police</li>
+                                <li id="first"><a href="report.html">Report Criminal Content</a><i class="fa fa-angle-right"></i></li>
+                                <p>Need a lawyer
+                                    <ul>Steps
+                                        <li>Step 1: Gather and Understand the Facts of Your Case</li>
+                                        <li>Step 2: Determine Your Legal Problem and Your Desired Outcome</li>
+                                        <li>Step 3: Finding Legal Information and Reading About the Law</li>
+                                        <li>Step 4: Legal Analysis/Legal Writing and beyond</li>
+                                    </ul>
+                                </p>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className="col-md-4">
+                        <div class="sector2">
+                            <h2>Our Annual report and samples of various crime scenes</h2>
+                            <img src="sth.jpg" />
+                            <div class="input-group">
+                                <button type="submit" name="submit" class="btn">ACCESS THE PODCAST</button>
+                            </div>
+                            <div class="input-group">
+                                <button type="submit" name="submit" class="btn">READ OUR ANNUAL REPORT</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* newsletter section */}
+            <div className="newslettersection">
+                <div class="newsletter">
+                    <h4>Sign up to our newsletter</h4>
+                    <div class="input-group">
+                        <label>YOUR NAME</label>
+                        <input type="text" name="" />
+                    </div>
+                    <div class="input-group">
+                        <label>YOUR EMAIL</label>
+                        <input type="text" name="" />
+                    </div>
+                    <div class="input-group">
+                        <button type="submit" name="submit" class="newsletter_btn">SUBSCRIBE</button>
+                    </div>
+                    <p>You can unsubscribe at any time using the link at the bottom of newsletter emails or you can contact us directly </p>
+                </div>
+            </div>
+
+        </div>
+   ) };
+
+ export default Home
+
