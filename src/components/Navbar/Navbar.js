@@ -28,7 +28,6 @@ handleClick = () => {
                             </li>
                         )
                     })}
-                    
                 </ul>
             </nav>
         )
