@@ -1,12 +1,18 @@
 /* main-body content */
 .bodycontent {
-  background: url(../img/crimescene.jpg);
+  background-image: url(../img/crimescene.jpg);
   background-size: cover;
-  hei
+}
+.content h1 {
+  color: #fff;
+}
+/* second main body content */
+.container {
+  background-color: #d3d3d3;
 }
 
 /* newsletter section */
-.newsletter {
+/* .newsletter {
   background-color: #d3d3d3;
 }
 .newsletter h4 {
@@ -17,4 +23,27 @@
 }
 .input-group {
   margin-left: 5%;
+  display: block;
+  width: 300px;
+  height: 20px;
+} */
+form {
+  width: 428px;
+  margin: 50px auto;
+  padding: 50px;
+}
+.info {
+  display: inline-block;
+  margin-right: 5px;
+}
+.info input {
+  display: block;
+  width: 600px;
+  height: 30px;
+  border-radius: 3px;
+  padding: 20px;
+}
+#submit {
+  padding: 10px;
+  margin-top: 20px;
 }

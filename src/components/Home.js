@@ -25,7 +25,7 @@ function Home() {
             <div className="container">
                 <h1>With the help of your reports victims are rescued</h1>
                 <div className="row">
-                    <div className="col-md-4">
+                    <div className="col-lg-4 col-md-6">
                         <div class="sector">
                             <h2>Report any form of crime</h2>
                             <ul>
@@ -51,7 +51,7 @@ function Home() {
                         </div>
                     </div>
 
-                    <div className="col-md-4">
+                    <div className="col-lg-4 col-md-6">
                         <div class="sector1">
                             <h2>how we sort out crimes</h2>
                             <ul>
@@ -69,7 +69,7 @@ function Home() {
                         </div>
                     </div>
 
-                    <div className="col-md-4">
+                    <div className="col-lg-4 col-md-6">
                         <div class="sector2">
                             <h2>Our Annual report and samples of various crime scenes</h2>
                             <img src="sth.jpg" />
@@ -85,7 +85,20 @@ function Home() {
             </div>
 
             {/* newsletter section */}
-            <div className="newslettersection">
+            <div className='newsletter'>
+                <form> 
+                <h1>Newsletter Signup</h1>
+                <p>No spam, unsubscribe at any time.</p>
+                    <div class="info">
+                        <input type="text" placeholder="Your Name"/>
+                        <input type="email" placeholder="Your Email"/>
+                    </div>
+                    <input type="submit" value="Subscribe" id="submit" />
+                </form> 
+            </div>
+
+             
+            {/* <div className="newslettersection">
                 <div class="newsletter">
                     <h4>Sign up to our newsletter</h4>
                     <div class="input-group">
@@ -101,7 +114,7 @@ function Home() {
                     </div>
                     <p>You can unsubscribe at any time using the link at the bottom of newsletter emails or you can contact us directly </p>
                 </div>
-            </div>
+            </div> */}
 
         </div>
    ) };
