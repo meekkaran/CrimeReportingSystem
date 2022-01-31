@@ -1,26 +1,28 @@
 /* main-body content */
-/* .bodycontent {
-  background-image: url(../img/crimescene.jpg);
+.bodycontent {
+  background: url(../img/crimescene.jpg);
+  height: 100vh;
+  width: 100vw;
   background-size: cover;
 }
-.content h1 {
-  color: #fff;
-} */
-.content {
-  width: 40%;
-  margin:200px;
 
-}
-.content h1{
+/* .content {
+  width: 40%;
+  margin-top: 200px;
+} */
+.content h1 {
   padding-bottom: 30px;
+  color: #fff;
 }
-.content h2{
+.content h2 {
   padding-bottom: 30px;
+  color: #fff;
 }
-.content h3{
+.content h3 {
   padding-bottom: 30px;
+  color: #fff;
 }
-.button{
+.button {
   display: inline-block;
   margin: 10px;
   background: gray;
@@ -28,7 +30,7 @@
   padding: 12px 20px;
   border-radius: 20px;
 }
-.button:hover{
+.button:hover {
   background: #800000;
 }
 /* second main body content */
