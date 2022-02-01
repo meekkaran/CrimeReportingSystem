@@ -17,18 +17,19 @@ function Home() {
                 </div>  
             </div>
 
-            {/* newsletter section */}
-            {/* <div className='newsletter'>
+            newsletter section 
+             <div className='newsletter'>
                 <form> 
-                <h1>Newsletter Signup</h1>
-                <p>No spam, unsubscribe at any time.</p>
+                <h1>Signup to our Newsletter</h1>
+                <p>To get important news and updates on what happens on the daily and  other significant information.</p>
                     <div class="info">
                         <input type="text" placeholder="Your Name"/>
                         <input type="email" placeholder="Your Email"/>
                     </div>
                     <input type="submit" value="Subscribe" id="submit" />
+                <p>You can unsubscribe at any time using the link at the bottom of newsletter emails or you can contact us directly</p>
                 </form> 
-            </div> */}
+            </div>
 
              
             {/* <div className="newslettersection">
