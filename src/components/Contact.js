@@ -4,7 +4,7 @@ import {Container,Row,Col} from "react-bootstrap";
 function Contact() {
   return(
     <div>
-      <Container>
+      {/* <Container>
         <Row className='mb-5 mt-3'>
           <Col lg-8>
             <h1 className='display-4 mb-4'>
@@ -57,7 +57,7 @@ function Contact() {
             </form>
           </Col>
         </Row>
-      </Container>
+      </Container> */}
     </div>
 
   ) 
