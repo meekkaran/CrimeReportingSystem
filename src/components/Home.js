@@ -1,6 +1,6 @@
 import React from 'react';
 import '../components/css/home.css';
-import {Grid,Row,Col, Button} from "react-bootstrap";
+import {Grid,Row,Col} from "react-bootstrap";
 
 function Home() {
   return(
@@ -18,6 +18,29 @@ function Home() {
                 </div>  
             </div>
 
+             {/* how we work section */}
+            <div className='howwework'>
+                <h1>How we work</h1>
+                <Row className="showgrid">
+                    <Col md={3}>
+                        <i class="fas fa-download" id="icon"></i>
+                        <h4>Download the app</h4>
+                    </Col>
+                    <Col md={3}>
+                        <i class="fas fa-hand-pointer" id="icon"></i>
+                        <h4>Select your emergency</h4>
+                    </Col>
+                    <Col md={3}>
+                        <i class="fas fa-search-location" id="icon"></i>
+                        <h4>Turn on location</h4>
+                    </Col>
+                    <Col md={3}>
+                        <i class="fas fa-first-aid" id="icon"></i>
+                        <h4>Order the emergency service</h4>
+                    </Col>
+                </Row>
+            </div>
+
             {/* Emergency section */}
             <div className='emergencysection'>
                 <h1>What is your Emergency?</h1>
@@ -25,40 +48,26 @@ function Home() {
                         <Col md={4} className="columns">
                             <i class="fas fa-ambulance" id="icon"></i>
                             <h4>Need an Ambulance?</h4>
-                            <Button>Ask for an Ambulance</Button>
+                            Are you in an emergency health condition that needs an ambulance urgently?
+                             do not hesistate to order the nearest ambulance for assistance. Save a life!<br/>
+                            <button className="button">Ask for an Ambulance</button>
                         </Col>
                         <Col md={4} className="columns">
                             <i class="fas fa-fingerprint" id="icon"></i>
                             <h4>Need the police?</h4>
-                            <Button>Call the Police</Button>
+                            In case of any form of crime, fights, accidents or violence do not hesistate to call the police, reach out to the nearest police station through 
+                            the app to be able to get assistance in time.<br/>
+                            <button className="button">Call the Police</button>
                         </Col>
                         <Col md={4} className="columns">
                             <i class="fas fa-fire-extinguisher" id="icon"></i>
                             <h4>Need the fire brigade?</h4>
-                            <Button>Ask for fire brigade</Button>
+                            Asking for the fire brigade has been made easy by just ordering for the fire brigade and you get assistance immediately.
+                            lets save lives .lets save Humanity.<br/>
+                            <button className="button">Ask for fire brigade</button>
                         </Col>
                 </Row>
             </div>
-
-
-            {/* how we work section */}
-            {/* <div>
-                <h1>How we work</h1>
-                <Row className="showgrid">
-                    <Col md={3}>
-                        <p>Download the app</p>
-                    </Col>
-                    <Col md={3}>
-                        <p>Select your emergency</p>
-                    </Col>
-                    <Col md={3}>
-                        <p>Turn on location</p>
-                    </Col>
-                    <Col md={3}>
-                        <p>Order the emergency service</p>
-                    </Col>
-                </Row>
-            </div> */}
 
             
             
